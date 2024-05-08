@@ -3673,3 +3673,92 @@
   border: 1px solid;
   border-color: var(--primary-colour);
 }
+
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:var(--h3-medium-font-weight),var(--h4-semibold-font-weight),var(--paragraph-regular-font-weight),var(--h5-buttons-font-weight),600,var(--h3-semibold-font-weight),var(--small-paragraph-font-weight),var(--h2-semi-bold-font-weight),500,400,var(--h4-medium-font-weight),var(--h1-font-weight)");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+:root {
+  --text-colour-3: rgba(128, 128, 128, 1);
+  --text-colour-1: rgba(11, 9, 10, 1);
+  --primary-colour: rgba(58, 12, 163, 1);
+  --text-colour-4: rgba(170, 170, 170, 1);
+  --white: rgba(255, 255, 255, 1);
+  --text-colour-2: rgba(43, 43, 43, 1);
+  --colour-1: rgba(67, 97, 238, 1);
+  --text-colour-5: rgba(212, 212, 212, 1);
+  --paragraph-regular-font-family: "Poppins", Helvetica;
+  --paragraph-regular-font-weight: 400;
+  --paragraph-regular-font-size: 16px;
+  --paragraph-regular-letter-spacing: 0px;
+  --paragraph-regular-line-height: 26px;
+  --paragraph-regular-font-style: normal;
+  --h1-font-family: "Poppins", Helvetica;
+  --h1-font-weight: 600;
+  --h1-font-size: 57.29999923706055px;
+  --h1-letter-spacing: 0px;
+  --h1-line-height: 65px;
+  --h1-font-style: normal;
+  --h5-buttons-font-family: "Poppins", Helvetica;
+  --h5-buttons-font-weight: 500;
+  --h5-buttons-font-size: 16px;
+  --h5-buttons-letter-spacing: 0px;
+  --h5-buttons-line-height: normal;
+  --h5-buttons-font-style: normal;
+  --small-paragraph-font-family: "Poppins", Helvetica;
+  --small-paragraph-font-weight: 400;
+  --small-paragraph-font-size: 13.300000190734863px;
+  --small-paragraph-letter-spacing: 0px;
+  --small-paragraph-line-height: 22px;
+  --small-paragraph-font-style: normal;
+  --h4-semibold-font-family: "Poppins", Helvetica;
+  --h4-semibold-font-weight: 500;
+  --h4-semibold-font-size: 19.399999618530273px;
+  --h4-semibold-letter-spacing: 0px;
+  --h4-semibold-line-height: normal;
+  --h4-semibold-font-style: normal;
+  --h4-medium-font-family: "Poppins", Helvetica;
+  --h4-medium-font-weight: 500;
+  --h4-medium-font-size: 19.399999618530273px;
+  --h4-medium-letter-spacing: 0px;
+  --h4-medium-line-height: normal;
+  --h4-medium-font-style: normal;
+  --h2-semi-bold-font-family: "Poppins", Helvetica;
+  --h2-semi-bold-font-weight: 600;
+  --h2-semi-bold-font-size: 39.79999923706055px;
+  --h2-semi-bold-letter-spacing: 0px;
+  --h2-semi-bold-line-height: 47px;
+  --h2-semi-bold-font-style: normal;
+  --h3-semibold-font-family: "Poppins", Helvetica;
+  --h3-semibold-font-weight: 600;
+  --h3-semibold-font-size: 27.600000381469727px;
+  --h3-semibold-letter-spacing: 0px;
+  --h3-semibold-line-height: normal;
+  --h3-semibold-font-style: normal;
+  --h3-medium-font-family: "Poppins", Helvetica;
+  --h3-medium-font-weight: 500;
+  --h3-medium-font-size: 27.600000381469727px;
+  --h3-medium-letter-spacing: 0px;
+  --h3-medium-line-height: normal;
+  --h3-medium-font-style: normal;
+  --for-white-backgrounds: 4px 10px 30px 0px rgba(0, 0, 0, 0.1);
+}
